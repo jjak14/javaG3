@@ -1,5 +1,7 @@
 package javaG3;
 
 public class ourfile {
-    System.out.println("“Jurgen”");
+    public static void main(String[] args){
+        System.out.println("“Jurgen”");
+    }
 }
