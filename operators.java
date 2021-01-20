@@ -9,10 +9,12 @@ public class operators {
         System.out.println("Please enter a number (preferably an integer)");
         Scanner scan = new Scanner(System.in);
         int num1 = scan.nextInt();
+        scan.close();
         System.out.println("num1 is: "+num1);
         System.out.println("Please enter another number (preferably an integer smaller than num1)");
         Scanner sc = new Scanner(System.in);
         int num2 = sc.nextInt();
+        sc.close();
         System.out.println("num2 is : "+num2);
         System.out.println("Below are the different operations possible in Java using with num1 and num2");
 
