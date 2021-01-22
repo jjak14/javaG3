@@ -1,6 +1,6 @@
 package javaG3;
 
-public class jurVariables {
+public class JurVariables {
 
     // I declare a static/class variable of type String
     public static String myString;
@@ -18,7 +18,7 @@ public class jurVariables {
         System.out.println("myChar is a local variable of type char with value of: "+myChar); //I print display myChar's value
     
         //I assign a value to my static variable myString
-        jurVariables.myString = "... of type String";
+        JurVariables.myString = "... of type String";
         
         //Display my class variable's value of type String
         System.out.println("My class variable is: "+myString);

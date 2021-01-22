@@ -2,7 +2,7 @@ package javaG3;
 
 import java.util.Scanner;
 
-public class operators {
+public class Operators {
 // java program to showcase all operators
     
     public static void main(String[] args){
