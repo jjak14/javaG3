@@ -10,7 +10,7 @@ public class AppTest
     public void ShouldReturnSunday()
     {
         App testApp = new App();
-        String day = testApp.PrintDayInWord(0);
+        String day = testApp.printDayInWord(0);
         assertTrue( day == "Sunday" );
     }
 
@@ -18,7 +18,7 @@ public class AppTest
     public void ShouldReturnWednesday() 
     {
         App testApp = new App();
-        String day = testApp.PrintDayInWord(3);
+        String day = testApp.printDayInWord(3);
         assertTrue( day == "Wednesday" );
     }
 }

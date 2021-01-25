@@ -2,7 +2,7 @@ package com.jak.lab;
 
 public class App 
 {
-    public String PrintDayInWord(int dayNumber){
+    public String printDayInWord(int dayNumber){
         switch (dayNumber) {
             case 0:
                 return "Sunday";
