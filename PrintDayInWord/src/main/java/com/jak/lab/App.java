@@ -25,6 +25,7 @@ public class App
 
     public static void main( String[] args )
     {
-
+        App pApp = new App();
+        System.out.println(pApp.PrintDayInWord(6));
     }
 }

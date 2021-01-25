@@ -4,11 +4,6 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import jdk.jfr.Timestamp;
-
-/**
- * Unit test for simple App.
- */
 public class AppTest
 {
     @Test
