@@ -1,15 +1,17 @@
 package com.jak.lab;
 
-import jdk.nashorn.api.tree.ForInLoopTree;
-
 public class App
 {
-    public int sumAverageRunningInt()
+    public int sumAverageRunningInt(int a)
     {
         int sum = 0 ;
-        for (int i = 0; i < 101 ; i++) {
+        for (int i = 0; i <= a ; i++) {
             sum += i;
         }
         return sum;
+    }
+
+    public static void name(String[] args) {
+
     }
 }

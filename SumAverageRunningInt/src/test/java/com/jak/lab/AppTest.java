@@ -10,7 +10,7 @@ public class AppTest
     public void shouldReturn5050()
     {
         App testApp = new App();
-        int sum = testApp.sumAverageRunningInt();
+        int sum = testApp.sumAverageRunningInt(100);
         assertTrue( sum == 5050 );
     }
 }
