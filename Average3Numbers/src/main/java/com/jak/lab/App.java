@@ -1,7 +1,5 @@
 package com.jak.lab;
 
-import java.util.ArrayList;
-
 public class App
 {
     public int average3numbers(int num1, int num2, int num3) {

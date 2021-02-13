@@ -1,5 +1,10 @@
-GreatestNum/target
-PrintDayInWord/target
+.gitignore
 PrintDayInWord/.classpath
 PrintDayInWord/.project
 PrintDayInWord/.settings/
+Average3Numbers/.classpath
+Average3Numbers/.project
+Average3Numbers/.settings/
+TestSumofNumInArray/.classpath
+TestSumofNumInArray/.project
+TestSumofNumInArray/.settings/
